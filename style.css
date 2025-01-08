@@ -1,0 +1,129 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: radial-gradient(circle, #1a1a2e, #0f0f1f);
+  color: #e0e0e0;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #00d4ff;
+  text-shadow: 0 0 10px #00d4ff, 0 0 20px #00aaff;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ffffffcc;
+}
+
+.countdown {
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ff88;
+}
+
+#timer {
+  font-size: 2rem;
+  color: #00ff88;
+}
+
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(0, 0, 50, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00d4ff;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+form select, form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+form select, form input {
+  background: #1a1a2e;
+  color: #fff;
+  box-shadow: inset 0 0 10px #00d4ff;
+}
+
+form button {
+  background: #00d4ff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 15px #00aaff;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #00aaff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #1a1a2e;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px #00d4ff;
+}
+
+button#claim-btn {
+  background: #00ff88;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ff88;
+  transition: background 0.3s;
+}
+
+button#claim-btn:hover {
+  background: #00d466;
+}
+
+button#withdraw-hex-btn {
+  background: #ff4d4d;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ff4d4d;
+  transition: background 0.3s;
+}
+
+button#withdraw-hex-btn:hover {
+  background: #cc0000;
+}
